@@ -22,8 +22,8 @@ const client = new djs.Client({
     ]
 });
 const slash = new SlashCMD(REST, Routes, client, djs.Collection, fs);
-const token = "bot token";
-const Id = "bot id";
+const token = "MTA0MTcxMTcwOTAxMTg1MzQxMw.GSeBrB.xTBCZSlMIIffmNJGsAQy6kAcmEeJDwW5sFY5og";
+const Id = "1041711709011853413";
 
 client.on('ready', async () => {
     console.log('[ERUHLU]: Bot Hazır!');
